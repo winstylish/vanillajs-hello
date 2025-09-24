@@ -1,0 +1,207 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "win32",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.278"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": false,
+        "projectType": "template",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": null
+        },
+        "warnings": {},
+        "title": {
+            "en": "Vanilla.js Starter Template for beginners",
+            "es": "Plantilla Inicial de Vanilla.js para principiantes"
+        },
+        "description": {
+            "en": "This is a starter template for Vanilla.js projects. It includes a basic folder structure with separation between CSS, JS and HTML files. It also uses Vite to kickstart your project and it can be deployed to Vercel in just one click",
+            "es": "Este es un template inicial para proyectos en Vanilla.js. Incluye una estructura básica de carpetas con separación entre archivos CSS, JS y HTML. También utiliza Vite para iniciar tu proyecto y puede ser desplegado en Vercel con un solo clic."
+        },
+        "repository": "https://github.com/4GeeksAcademy/vanillajs-hello",
+        "preview": "https://repository-images.githubusercontent.com/130237499/fc593900-78de-11ea-8d19-fb66acf4d7fe",
+        "difficulty": "beginner",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "DOM",
+            "VITE",
+            "MODULE BUNDLER"
+        ],
+        "translations": []
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "node_modules",
+            "slug": "node_modules",
+            "translations": {},
+            "language": "node",
+            "entry": null,
+            "title": "node_modules",
+            "graded": false,
+            "files": [
+                {
+                    "path": "node_modules/.bin",
+                    "name": ".bin",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/.package-lock.json",
+                    "name": ".package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/.vite",
+                    "name": ".vite",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/.vite-temp",
+                    "name": ".vite-temp",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@esbuild",
+                    "name": "@esbuild",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@popperjs",
+                    "name": "@popperjs",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@rollup",
+                    "name": "@rollup",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/@types",
+                    "name": "@types",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/bootstrap",
+                    "name": "bootstrap",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/esbuild",
+                    "name": "esbuild",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/fdir",
+                    "name": "fdir",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/nanoid",
+                    "name": "nanoid",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/picocolors",
+                    "name": "picocolors",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/picomatch",
+                    "name": "picomatch",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/postcss",
+                    "name": "postcss",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/rollup",
+                    "name": "rollup",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/source-map-js",
+                    "name": "source-map-js",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/tinyglobby",
+                    "name": "tinyglobby",
+                    "hidden": true
+                },
+                {
+                    "path": "node_modules/vite",
+                    "name": "vite",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "src",
+            "slug": "src",
+            "translations": {},
+            "language": "html",
+            "entry": "src/index.html",
+            "title": "src",
+            "graded": false,
+            "files": [
+                {
+                    "path": "src/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "src/assets",
+                    "name": "assets",
+                    "hidden": true
+                },
+                {
+                    "path": "src/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "src/style.css",
+                    "name": "style.css",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 2441651766375927300
+}
